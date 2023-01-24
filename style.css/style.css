@@ -5,6 +5,8 @@
     --black-light: #181818; 
 
     font-family: 'Montserrat', sans-serif;
+
+    overflow-x: hidden;
 }
 
 .titulo__chamada {
@@ -39,6 +41,74 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    min-height: 500px; 
+    min-height: 378px;
+    min-width: 1920px; 
     filter: brightness(50%);
+
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    left: 100px;
+    top: 224px;
+}
+
+.container__title {
+    font-size: 48px;
+    color: var(--white);
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+
+.container__description {
+    width: 637px;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+}
+
+.container__destaques {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.container__titulo {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    margin-bottom: 17px;
+    color: var(--black-light);
+}
+
+.container__chamada {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: var(--gray);
+    margin-bottom: 65px;
+}
+
+.ul__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    margin-bottom: 100px;
+}
+
+.li__background {
+    width: 415px;
+    height: 302px;
+    background-color: var(--white-200);
+}
+
+.li__img {
+    width: 400px;
+    height: 240px;
 }
