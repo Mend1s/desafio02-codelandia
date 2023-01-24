@@ -1,0 +1,44 @@
+:root {
+    --white: #F9F9F9;
+    --white-200: #EBE9EA;
+    --gray: #474747;
+    --black-light: #181818; 
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo__chamada {
+    background-color: var(--black-light);
+    width: 1920px;
+    height: 60px;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo__chamada--titulo {
+    background-color: var(--white);
+    width: 1920px;
+    height: 60px;
+    color: var(--black-light);
+    font-size: 24px;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    background-image: url(../assets/wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px; 
+    filter: brightness(50%);
+}
